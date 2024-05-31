@@ -4,23 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renacimiento</title>
+    <link rel="stylesheet" href="./estilo.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="registro.html">Registrarse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="inicio.html">Iniciar sesión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lista_libros.html">API de libros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     <h1>Renacimiento</h1>
-    <h2>Las obras más importantes</h2>
-    <h3>El nacimiento de Venus</h3>
-    <img src="./img/el-nacimiento-de-venus.webp" height="200" alt="Obra del nacimiento de Venus" />
-    <p>Realizado por el pintor florentino Sandro Botticelli durante los años 1482-1485</p>
-    <p>Se encuentra en la <a href="https://www.visituffizi.org/es/">Galería Uffizi</a> </p>
-    <hr />
-    <h3>La última cena</h3>
-    <img src="./img/la-ultima-cena.jpg" height="200" alt="Obra de la última cena"/>
-    <p>Es una pintura mural original de Leonardo da Vinci ejecutada entre 1495 y 1498</p>
-    <p>Se encuentra en la pared sobre la que se pintó originalmente, en el refectorio del convento dominico de <a href="https://www.italia.it/es/lombardia/milan/santa-maria-delle-grazie">Santa Maria delle Grazie</a> en Milán</p>
-    <hr/>
-    <h3>La creación de Adán</h3>
-    <img src="./img/Tour-Vaticano-Museos-Vaticanos-Capilla-Sixtina-y-San-Pedro-768x481.jpg" height="200" alt="Obra de la creación de Adán"/>
-    <p>Es un fresco en la bóveda de la Capilla Sixtina, pintado por Miguel Ángel alrededor del año 1511</p>
-    <p>Se encuentra en <a href="https://www.museivaticani.va/content/museivaticani/es/collezioni/musei/cappella-sistina/storia-cappella-sistina.html">la Capilla Sixtina</a></p>
+    <br />
+    <h2>Algunas de las obras más importantes</h2>
+    <br />
+    <div class="d-flex justify-content-center mx-top-2">
+        <div class="card mx-auto p-2" style="width: 18rem;">
+            <img src="./img/el-nacimiento-de-venus.webp" class="card-img-top" alt="Pintura del nacimiento de venus">
+            <div class="card-body">
+              <h5 class="card-title">El nacimiento de Venus</h5>
+              <p class="card-text">Realizado por el pintor florentino Sandro Botticelli durante los años 1482-1485. Se encuentra en la Galería Uffizi.</p>
+              <a href="https://www.visituffizi.org/es/" class="btn btn-primary">Ir a la Galería Uffizi</a>
+            </div>
+          </div>
+          <div class="card mx-auto p-2 " style="width: 18rem;">
+            <img src="./img/la-ultima-cena.jpg" class="card-img-top" alt="Obra de la última cena">
+            <div class="card-body">
+              <h5 class="card-title">La última cena</h5>
+              <p class="card-text">Es una pintura mural original de Leonardo da Vinci ejecutada entre 1495 y 1498. Se encuentra en la pared sobre la que se pintó originalmente,
+                en el refectorio del convento dominico de Santa Maria delle Grazie en Milán.
+              </p>
+              <a href="https://www.italia.it/es/lombardia/milan/santa-maria-delle-grazie" class="btn btn-primary">Ir Santa Maria delle Grazie</a>
+            </div>
+          </div>
+       
+     <div class="card mx-auto p-2" style="width: 18rem;">
+        <img src="./img/Tour-Vaticano-Museos-Vaticanos-Capilla-Sixtina-y-San-Pedro-768x481.jpg" class="card-img-top" alt="Pintura de la creacion de Adán">
+        <div class="card-body">
+          <h5 class="card-title"">La creación de Adán</h5>
+          <p class="card-text">Es un fresco en la bóveda de la Capilla Sixtina, pintado por Miguel Ángel alrededor del año 1511. Se encuentra en la Capilla Sixtina.</p>
+          <a href="https://www.museivaticani.va/content/museivaticani/es/collezioni/musei/cappella-sistina/storia-cappella-sistina.html" class="btn btn-primary">Ir a la Capilla Sixtina</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

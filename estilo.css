@@ -1,0 +1,22 @@
+html{
+    background-color: white;
+}
+
+h1{
+    color: #201e1b;
+    background-color: #b7d6f3;
+}
+
+h3{
+    color:#BACD92;
+    background-color: #4F6F52;
+}
+
+p{
+    font-size: 15px;
+}
+
+*{
+    text-align: center;
+}
+
