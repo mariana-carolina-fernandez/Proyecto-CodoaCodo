@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var apiUrl = "http://openlibrary.org/people/george08/lists/OL97L/seeds.json";
+  var apiUrl = "https://openlibrary.org/people/george08/lists/OL97L/seeds.json";
 
   fetch(apiUrl)
     .then((response) => response.json())
